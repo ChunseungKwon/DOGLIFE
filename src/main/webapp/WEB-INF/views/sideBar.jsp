@@ -9,7 +9,7 @@
 				<ul class="nav nav-pills nav-stacked">
 					<li><a href="./mypage_update2"><i
 							class="glyphicon glyphicon-flash"></i>회원정보수정</a></li>
-					<li><a href="./myadoption"><i
+					<li><a href="./myadoption?memberId=${memberId}"><i
 							class="glyphicon glyphicon-link"></i>입양신청현황</a></li>
 					<li><a href="./toReservationFuneralList?pageNum=1"><i
 							class="glyphicon glyphicon-briefcase"></i>예약내역조회</a></li>

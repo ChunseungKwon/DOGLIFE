@@ -149,9 +149,7 @@ var id = "${memberId}";
 			</div>
 		</div>
 	</section>
-	<footer>
-		<jsp:include page="./centerfooter.jsp" />
-	</footer>
+
 
 	<!-- /Main -->
 	<script type="text/javascript">

@@ -6,7 +6,7 @@
 
 	<select id="myadoptionSelect" parameterType="String"
 		resultType="com.doglife.db.dto.AdoptionListDto">
-		SELECT * FROM adoptionlist
+		SELECT * FROM adoptionlist where memberId=#{memberId}
 	</select>
 	
 	<delete id="myAdoptionDelete" parameterType="Integer">

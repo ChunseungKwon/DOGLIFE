@@ -164,9 +164,7 @@ Strong {
 			</form>
 		</div>
 	</section>
-	<footer>
-		<jsp:include page="./centerfooter.jsp" />
-	</footer>
+
 	<script type="text/javascript">
 		function passwordCheck() {
 			var password = $("#customerPwd").val();

@@ -377,9 +377,7 @@ section {
 			</div>	
 		</form>
 	</section>
-	<footer>
-		<jsp:include page="./centerfooter.jsp" />
-	</footer>
+
 </body>
 
 <style type="text/css">

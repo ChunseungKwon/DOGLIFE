@@ -140,11 +140,11 @@ var id = "${memberId}";
 										<div>
 											<div>
 												<form action="./noticeUpdateT" method="get">
-												<c:if test="${c.atype eq '1'}">
+												<c:if test="${c.atype eq '입양'}">
 													<div class="inputform">
 														<input type="hidden" name="anum" value="${c.anum}">
 														<input type="hidden" name="memberId" value="${c.memberId}">
-														<input type="hidden" name="atype" value="1">
+														<input type="hidden" name="atype" value="입양">
 														<div class="content">
 															<strong>[입양]</strong>
 															<div>
@@ -162,11 +162,11 @@ var id = "${memberId}";
 															class="regbutton2" value="취소"> 
 													</div>
 													</c:if>
-													<c:if test="${c.atype eq '2'}">
+													<c:if test="${c.atype eq '장례'}">
 													<div class="inputform">
 													<input type="hidden" name="anum" value="${c.anum}">
 														<input type="hidden" name="memberId" value="${c.memberId}">
-														<input type="hidden" name="atype" value="2">
+														<input type="hidden" name="atype" value="장례">
 														<div class="content">
 															<strong>[장례]</strong>
 															<div>

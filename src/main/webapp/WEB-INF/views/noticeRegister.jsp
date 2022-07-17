@@ -141,8 +141,8 @@ var id = "${memberId}";
 														<input type="hidden" name="memberId" value="${memberId}"> 
 														<div class="content">
 															<select id="categories" name="atype" required>
-																<option value="1">입양</option>
-																<option value="2">장례</option>
+																<option value="입양">입양</option>
+																<option value="장례">장례</option>
 															</select>
 															<div>
 																<input class="title" name="atitle" type="text"

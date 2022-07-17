@@ -170,9 +170,7 @@ button {
 		</div>
 	</section>
 
-	<footer>
-		<jsp:include page="./centerfooter.jsp" />
-	</footer>
+
 	<script>
 		function deleteinfo(memberId) {
 			console.log(memberId);
